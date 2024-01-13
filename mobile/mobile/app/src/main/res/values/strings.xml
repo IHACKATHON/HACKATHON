@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">hackerton</string>
+    <string name="button_login">로그인</string>
+</resources>

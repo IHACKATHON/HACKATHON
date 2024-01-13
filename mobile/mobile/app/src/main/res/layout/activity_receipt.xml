@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:paddingHorizontal="22dp"
+    tools:context=".ReceiptActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_check"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16,000"
+            android:fontFamily="@font/pretendard_semi_bold"
+            android:textSize="40sp"
+            android:textColor="@color/main"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 원"
+            android:fontFamily="@font/pretendard_semi_bold"
+            android:textSize="40sp"
+            android:textColor="@color/grey"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결제완료"
+        android:fontFamily="@font/pretendard_regular"
+        android:textSize="24sp"
+        android:textColor="@color/grey"
+        android:gravity="center"
+        />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_white20"
+        android:paddingHorizontal="22dp"
+        android:paddingTop="22dp"
+        android:paddingBottom="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="결제정보"
+            android:fontFamily="@font/pretendard_semi_bold"
+            android:textSize="24sp"
+            android:textColor="@color/grey"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="상점명"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/store_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나라닭강정"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFC9C9C9"
+            android:layout_marginTop="10dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="결제금액"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16,000원"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="결제 후 잔액"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="69,000원"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFC9C9C9"
+            android:layout_marginTop="10dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="결제 일시"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/store_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024.01.13 12:18:03"
+                android:fontFamily="@font/pretendard_regular"
+                android:textSize="24sp"
+                android:textColor="@color/grey"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btn_okay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:fontFamily="@font/pretendard_semi_bold"
+        android:textSize="30sp"
+        android:background="@drawable/button_main_round20"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+android:paddingHorizontal="22dp"
+    tools:context=".SignupActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+ />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/icon_logo2" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pretendard_regular"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:text="간편한 푸드크럭 결제서비스
+회원가입을 위해 정보를 기입해주세요"
+        android:lineHeight="23dp"
+        android:lineSpacingExtra="10dp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/member_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_round_white"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center_vertical"
+            android:hint="이름"
+            android:paddingLeft="22dp"
+            android:textColorHint="@color/unselected"
+            android:textSize="20sp"
+
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+
+
+        <EditText
+            android:id="@+id/member_email"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_round_white"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center_vertical"
+            android:hint="이메일"
+            android:paddingLeft="22dp"
+            android:textColorHint="@color/unselected"
+            android:textSize="20sp"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <EditText
+            android:id="@+id/member_password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_round_white"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center_vertical"
+            android:hint="비밀번호"
+            android:paddingLeft="22dp"
+            android:textColorHint="@color/unselected"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+
+        <EditText
+            android:id="@+id/member_bank"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_round_white"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center_vertical"
+            android:hint="은행"
+            android:paddingLeft="22dp"
+            android:textColorHint="@color/unselected"
+            android:textSize="20sp"
+
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <EditText
+            android:id="@+id/member_account_number"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edittext_round_white"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center_vertical"
+            android:hint="계좌번호"
+            android:paddingLeft="22dp"
+            android:textColorHint="@color/unselected"
+            android:textSize="20sp"
+
+            />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:fontFamily="@font/pretendard_regular"
+            android:text="회원가입"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/button_main_round20"
+
+            android:textColor="@color/white"
+
+            />
+
+
+
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+ />
+
+
+
+
+
+</LinearLayout>
