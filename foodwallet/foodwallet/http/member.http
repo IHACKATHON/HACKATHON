@@ -1,0 +1,32 @@
+### 일반 회원 가입
+POST http://localhost:8080/api/v1/join
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "pwd": "test1234!",
+  "name": "홍길동",
+  "bank": "신한",
+  "accountNumber": "231-123-2313123"
+}
+
+### 사업자 회원 가입
+POST http://localhost:8080/api/v1/business-join
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "pwd": "test1234!",
+  "name": "사업자",
+  "bank": "신한",
+  "accountNumber": "231-123-2313123"
+}
+
+### 일반 회원 로그인
+POST http://localhost:8080/api/v1/login
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "pwd": "test1234!"
+}
